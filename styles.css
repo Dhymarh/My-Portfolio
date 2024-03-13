@@ -1,3 +1,73 @@
-/*font-family: "Poppins",sans-serif;
-font-family: "Bai Jamjuree",sans-serif;*/
+:root{
+    --heading-font-family:"Bai Jamjuree",sans-serif;
+    --body-font-family:"Poppins", sans-serif;
+}
 
+
+.hero{
+    background: #161513;
+    padding: 140px 70px ;
+}
+
+.hero p{
+    font-family: var(--body-font-family);
+    color: #B16CEA;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.hero h1{
+    font-family: var(--heading-font-family);
+  background: linear-gradient(10deg, #B16CEA,#FF5E69,#FF8A56,#FFA84B 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+    font-size: 64px;
+    font-weight: 700;   
+}
+.hero h2{
+      font-family: var(--body-font-family);
+ color: white;
+ font-size: 20px;
+}
+
+.hero h3 {
+    font-family: var(--body-font-family);
+    color: wheat;
+    font-size: 12px;
+}
+
+.hero .btn-primary{
+    background: linear-gradient(90deg,#B16CEA, #FF5E69, #FF8A56, #FFA84B 100% );
+  border: none;
+  border-radius: 8px;
+ font-family: var(--heading-font-family);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.hero .btn-primary:hover{
+    background: none;
+    border:1px solid #FF5E69;;
+}
+
+.hero .btn-outline-primary{
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-size: 11px;
+    margin-left: 5px;
+}
+.hero .btn-outline-primary:hover{
+    background: none;
+    border-color:#FF5E69;
+}
+
+.coding-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -320px;
+    margin-right:40px ;
+}
