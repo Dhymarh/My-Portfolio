@@ -6,7 +6,7 @@
 
 .hero{
     background: #161513;
-    padding: 140px 70px ;
+    padding: 140px 70px 70px 70px ;
 }
 
 .hero p{
@@ -14,7 +14,7 @@
     color: #B16CEA;
     font-size: 25px;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .hero h1{
@@ -48,7 +48,7 @@
 
 .hero .btn-primary:hover{
     background: none;
-    border:1px solid #FF5E69;;
+    border:1px solid #FF5E69;
 }
 
 .hero .btn-outline-primary{
@@ -58,6 +58,7 @@
     font-family: var(--heading-font-family);
     font-weight: 500;
     font-size: 11px;
+    margin-top: 1px;
     margin-left: 5px;
 }
 .hero .btn-outline-primary:hover{
@@ -70,4 +71,90 @@
     justify-content: flex-end;
     margin-top: -320px;
     margin-right:40px ;
+}
+
+.latest-projects{
+ background: #1C1C22;
+ padding: 25px 40px;
+}
+
+p{
+ font-family: var(--heading-font-family);
+ background: linear-gradient(104deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 24px;
+        font-weight: 700;
+}
+
+.img-fluid{
+border: 0px solid #B16CEA; 
+}
+
+.container{
+    padding: 0;
+}
+
+.name{
+    font-size: 15px;
+    margin: 2px;
+}
+
+.btn-outline-primary{
+    border-color:wheat;
+    border-radius: 8px;
+    color: white;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+.btn-outline-primary:hover {
+    background: none;
+    border-color: #FF5E69;
+}
+
+
+
+@media screen  and (max-width:990px) {
+
+    .hero{
+        padding: 80px 30px;
+        }
+    
+    .hero p{
+        font-size: 20px;
+        padding-top: 50px;
+    }
+    
+    .hero h1{
+        font-size: 35px;
+    }
+    .hero h2 {
+        font-size: 15px;
+    }
+    .hero h3 {
+        font-size: 13px;
+        padding-right: 150px;
+    }
+    
+    .coding-img{
+        display: none;
+    }
+    
+    .btn-outline-primary{
+        margin-top: 8px;
+    }
+    .img-fluid{
+        margin-top: 25px;
+    }
+    .latest-heading{
+        margin-bottom: -20px;
+        font-size: 20px;
+    }
+    .latest-projects{
+        padding: 20px;
+    }
 }
