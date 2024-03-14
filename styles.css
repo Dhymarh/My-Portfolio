@@ -111,6 +111,7 @@ body{
  padding: 25px 40px;
 }
 
+
 .latest-heading{
  font-family: var(--heading-font-family);
  background: linear-gradient(104deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
@@ -195,6 +196,39 @@ border: 1px solid #FF5E69;
         }
 
 
+.portfolio{
+    padding: 25px 40px;
+}
+
+.portfolio-heading{
+    margin-bottom: 25px;
+}
+
+.portfolio-image{
+border-radius: 10px 10px 0 0;
+}
+
+
+.port-description{
+    background: rgba(28, 28, 34, 0.5);
+    padding: 10px 12px;
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.port-description h3{
+color: white;
+font-size: 20px;
+}
+
+.port-description a{
+    font-size: 12px;
+}
+
+
+
+
+
 
 @media screen and (max-width:1400px){
 .coding-img {
@@ -204,7 +238,7 @@ border: 1px solid #FF5E69;
         margin-bottom: 0px;
     }
 .hero {
- padding: 90px 30px 160px;
+ padding: 90px 30px 200px;
         }
 }
 
@@ -301,6 +335,25 @@ clear: left;
         font-size: 12px;
         margin-top: -2px;
     }
+
+.port-description {
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.port-description h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.port-description a {
+    font-size: 11px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+
+
 }
 
 @media screen and (max-width:400px){
@@ -330,4 +383,16 @@ clear: left;
  .hero .btn-outline-primary {
      font-size: 9px;
  }
+
+ .port-description h3 {
+     color: white;
+     font-size: 15px;
+ }
+
+ .port-description a {
+     font-size: 10px;
+     margin-top: 3px;
+     margin-bottom: 2px;
+ }
+
 }
