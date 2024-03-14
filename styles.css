@@ -228,17 +228,17 @@ body {
     font-size: 12px;
 }
 
+
 .tools{
     display: flex;
         justify-content: space-around;
         margin: 25px 150px 30px;
-
 }
 
 .what-i-do{
         background: rgba(28, 28, 34, 0.5);
         backdrop-filter: blur(3px);
-        padding: 10px 25px 5px;
+        padding: 10px 15px 5px;
 }
 
 .icon {
@@ -257,13 +257,40 @@ font-size: 16px;
 margin-bottom: 10px;
  }
 
- .tech{
+ #tech{
     margin-top: 20px;
  }
 
- .tech h2{
+ #tech h2{
     text-align: center;
-     padding-left: 30px ;
+ ;
+ }
+
+ .contact{
+    margin-top: 30px;
+    padding: 0px 20px;
+ }
+
+ .contact h1{
+    font-family: var(--heading-font-family);
+        background: linear-gradient(10deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 800;
+ }
+
+ .contact h3{
+    font-family: var(--heading-font-family);
+    color: white;
+    font-size: 15px;
+ }
+
+ input{
+    margin-bottom: 20px;
+    display: block;
+    background: #1C1C22;
+    color: wheat;
+    border: 1px solid #FF5E69;
  }
 
 
@@ -399,7 +426,19 @@ margin-bottom: 10px;
         margin-bottom: 2px;
     }
 
-
+.tools {
+     display:flex;
+    flex-wrap: wrap;
+    margin: 10px 35px 30px;
+}
+     .what-i-do {
+          margin-top: 20px;
+        }
+    
+        
+        .name {
+            font-size: 15px;
+        }
 
 }
 
@@ -434,6 +473,10 @@ margin-bottom: 10px;
         font-size: 9px;
     }
 
+        .about-me {
+            padding: 5px 20px 0px;
+        }
+
     .port-description h3 {
         color: white;
         font-size: 15px;
@@ -443,6 +486,11 @@ margin-bottom: 10px;
         font-size: 10px;
         margin-top: 3px;
         margin-bottom: 2px;
+    }
+
+    .tools{
+        display: grid;
+       grid-template-columns: 1fr;
     }
 
 }
