@@ -267,7 +267,7 @@ margin-bottom: 10px;
  }
 
  .contact{
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 0px 20px;
  }
 
@@ -277,6 +277,7 @@ margin-bottom: 10px;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         font-weight: 800;
+        
  }
 
  .contact h3{
@@ -285,13 +286,72 @@ margin-bottom: 10px;
     font-size: 15px;
  }
 
+ .socials{
+    margin-top: 20px;
+    font-family: var(--heading-font-family);
+ }
+
+ .socials a{
+    color: wheat;
+    text-decoration: none;
+ }
+
+ .socials a:hover{
+    text-decoration: underline;
+ }
+
  input{
     margin-bottom: 20px;
     display: block;
     background: #1C1C22;
     color: wheat;
-    border: 1px solid #FF5E69;
+    border: none;
+}
+
+form {
+    max-width: 400px;
+    color: #fff;
+    font-size: 12px;
+    font-family: var(--heading-font-family);
  }
+
+ .form-group {
+     margin-bottom: 15px;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 5px;
+   
+ }
+
+ input,
+ textarea {
+     width: 100%;
+     padding: 10px;
+     margin-top: 5px;
+     border: none;
+     border-radius: 5px;
+    background: #1C1C22;
+ }
+
+ .contact button {
+ background: linear-gradient(90deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+ border: none;
+ border-radius: 8px;
+ font-family: var(--heading-font-family);
+ font-weight: 500;
+ font-size: 13px;
+ color: white;
+ padding: 4px 10px;
+ }
+
+ button:hover {
+     background: none;
+     border: 1px solid #FF5E69;
+ }
+
+
 
 
 

@@ -55,24 +55,37 @@
 
 
 <div class="contact container">
-    <div class="row">
+    <div class=" row">
         <div class="col-6">
          <h1 class="">Get in touch</h1>
             <h3>Have a project in mind? Looking to partner or work together?
                 <br>Reach out through the form.</h3>
 
+
+           <div class="socials">
+            <p>
+                <a href="mailto:chidinmaodoh29@gmail.com">chidinmaodoh29@gmail.com</a>
+            </p>
+           </div>     
         </div>
         <div class="col-6">
             <form >
-                    <input type="text" placeholder="Enter your name..." >
-               
-                    <input type="email" placeholder="Enter your e-mail...">
-
-                    <input type="text"  placeholder="Type your message">
-
-                <button type="submit">Submit</button>
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+        <label for="details">Tell us a bit about what you're looking to do?</label>
+        <textarea id="details" name="details" rows="4" placeholder="Type in here..."></textarea>
+    </div>
+    <button type="submit">SUBMIT</button>
             </form>
         </div>
     </div>
 </div>
 </body>
+</html>
