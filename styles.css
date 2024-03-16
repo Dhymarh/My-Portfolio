@@ -412,7 +412,7 @@ footer .social-links a {
 .owner{
     font-family: var(--heading-font-family);
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .owner a{
@@ -664,5 +664,8 @@ footer .social-links a{
     font-size: 8px;
 }
 
+.owner{
+    font-size: 12px;
+}
 
 }
